@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "ImageDownloadManager.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    ImageDownloadManager * imageDownloadManager = [ImageDownloadManager instance];
+    [imageDownloadManager pruneImagesOlderThan:[NSDate dateWithTimeIntervalSinceNow:-5*24*60*60]];
     return YES;
 }
 							

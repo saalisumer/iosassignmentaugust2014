@@ -31,6 +31,8 @@
 #pragma mark - NSURLConnectionDataDelegate implementation
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection {
     NSError* error;
+
+    
     NSDictionary *responseObject = [NSJSONSerialization JSONObjectWithData:mResponseData options:NSJSONReadingMutableContainers error:&error];
     
     if(error == nil) {

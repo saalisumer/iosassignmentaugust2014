@@ -204,7 +204,7 @@
         }
         else
         {
-            UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Game Ended" message:[NSString stringWithFormat: @"You completed game in %d clicks",mClickCounter] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Reload", nil ];
+            UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Game Ended" message:[NSString stringWithFormat: @"You completed game in %d taps",mClickCounter] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Reload", nil ];
             alert.tag = -101;
             [alert show];
             self.sampleImage.hidden = YES;
