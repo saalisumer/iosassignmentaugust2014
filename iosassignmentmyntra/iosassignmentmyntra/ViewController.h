@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@property (nonatomic, weak) IBOutlet UICollectionView * collectionView;
+@property (weak, nonatomic) IBOutlet UILabel *lblHeader;
+@property (weak, nonatomic) IBOutlet UIImageView *sampleImage;
+- (IBAction)reloadGame:(id)sender;
 @end

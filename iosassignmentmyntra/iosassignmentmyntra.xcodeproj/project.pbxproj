@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701BA53E199765BB00E7F21C /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA53D199765BB00E7F21C /* Command.m */; };
+		701BA5471997677100E7F21C /* CommandOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA5461997677100E7F21C /* CommandOperationQueue.m */; };
+		701BA54A199767B200E7F21C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA549199767B200E7F21C /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		701BA54C199769A900E7F21C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701BA54B199769A900E7F21C /* SystemConfiguration.framework */; };
+		701BA54F19976A6E00E7F21C /* FlickrImageFetchCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA54E19976A6E00E7F21C /* FlickrImageFetchCommand.m */; };
+		701BA55319976D6200E7F21C /* FlickrFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA55219976D6200E7F21C /* FlickrFeed.m */; };
+		701BA55719976EFD00E7F21C /* FlickrFeedBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA55619976EFD00E7F21C /* FlickrFeedBuilder.m */; };
+		701BA55A19976F6C00E7F21C /* ApplicationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA55919976F6C00E7F21C /* ApplicationModel.m */; };
+		701BA55F19977D1300E7F21C /* ImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA55C19977D1300E7F21C /* ImageDownloadManager.m */; };
+		701BA56019977D1300E7F21C /* ImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BA55E19977D1300E7F21C /* ImageDownloadOperation.m */; };
 		7028D1911994FE140055E206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7028D1901994FE140055E206 /* Foundation.framework */; };
 		7028D1931994FE150055E206 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7028D1921994FE150055E206 /* CoreGraphics.framework */; };
 		7028D1951994FE150055E206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7028D1941994FE150055E206 /* UIKit.framework */; };
@@ -21,6 +31,8 @@
 		7028D1B21994FE150055E206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7028D1941994FE150055E206 /* UIKit.framework */; };
 		7028D1BA1994FE150055E206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7028D1B81994FE150055E206 /* InfoPlist.strings */; };
 		7028D1BC1994FE150055E206 /* iosassignmentmyntraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7028D1BB1994FE150055E206 /* iosassignmentmyntraTests.m */; };
+		703AD9601997B41F00D7077E /* FlickrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 703AD95F1997B41F00D7077E /* FlickrCell.m */; };
+		703AD9641997E0A600D7077E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 703AD9631997E0A600D7077E /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		701BA53C199765BB00E7F21C /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		701BA53D199765BB00E7F21C /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		701BA5411997664300E7F21C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		701BA5451997677100E7F21C /* CommandOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandOperationQueue.h; sourceTree = "<group>"; };
+		701BA5461997677100E7F21C /* CommandOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandOperationQueue.m; sourceTree = "<group>"; };
+		701BA548199767B200E7F21C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		701BA549199767B200E7F21C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		701BA54B199769A900E7F21C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		701BA54D19976A6E00E7F21C /* FlickrImageFetchCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrImageFetchCommand.h; sourceTree = "<group>"; };
+		701BA54E19976A6E00E7F21C /* FlickrImageFetchCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrImageFetchCommand.m; sourceTree = "<group>"; };
+		701BA55119976D6200E7F21C /* FlickrFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFeed.h; sourceTree = "<group>"; };
+		701BA55219976D6200E7F21C /* FlickrFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFeed.m; sourceTree = "<group>"; };
+		701BA55519976EFD00E7F21C /* FlickrFeedBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFeedBuilder.h; sourceTree = "<group>"; };
+		701BA55619976EFD00E7F21C /* FlickrFeedBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFeedBuilder.m; sourceTree = "<group>"; };
+		701BA55819976F6C00E7F21C /* ApplicationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationModel.h; sourceTree = "<group>"; };
+		701BA55919976F6C00E7F21C /* ApplicationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationModel.m; sourceTree = "<group>"; };
+		701BA55B19977D1300E7F21C /* ImageDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloadManager.h; sourceTree = "<group>"; };
+		701BA55C19977D1300E7F21C /* ImageDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloadManager.m; sourceTree = "<group>"; };
+		701BA55D19977D1300E7F21C /* ImageDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloadOperation.h; sourceTree = "<group>"; };
+		701BA55E19977D1300E7F21C /* ImageDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloadOperation.m; sourceTree = "<group>"; };
 		7028D18D1994FE140055E206 /* iosassignmentmyntra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosassignmentmyntra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7028D1901994FE140055E206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7028D1921994FE150055E206 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +85,10 @@
 		7028D1B71994FE150055E206 /* iosassignmentmyntraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iosassignmentmyntraTests-Info.plist"; sourceTree = "<group>"; };
 		7028D1B91994FE150055E206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7028D1BB1994FE150055E206 /* iosassignmentmyntraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosassignmentmyntraTests.m; sourceTree = "<group>"; };
+		703AD95E1997B41F00D7077E /* FlickrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCell.h; sourceTree = "<group>"; };
+		703AD95F1997B41F00D7077E /* FlickrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCell.m; sourceTree = "<group>"; };
+		703AD9621997E0A600D7077E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		703AD9631997E0A600D7077E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701BA54C199769A900E7F21C /* SystemConfiguration.framework in Frameworks */,
 				7028D1931994FE150055E206 /* CoreGraphics.framework in Frameworks */,
 				7028D1951994FE150055E206 /* UIKit.framework in Frameworks */,
 				7028D1911994FE140055E206 /* Foundation.framework in Frameworks */,
@@ -79,6 +116,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		701BA53F199765C300E7F21C /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				701BA53C199765BB00E7F21C /* Command.h */,
+				701BA53D199765BB00E7F21C /* Command.m */,
+				701BA5451997677100E7F21C /* CommandOperationQueue.h */,
+				701BA5461997677100E7F21C /* CommandOperationQueue.m */,
+				701BA54D19976A6E00E7F21C /* FlickrImageFetchCommand.h */,
+				701BA54E19976A6E00E7F21C /* FlickrImageFetchCommand.m */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		701BA540199765CC00E7F21C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7028D1A51994FE150055E206 /* ViewController.h */,
+				7028D1A61994FE150055E206 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		701BA55019976D2A00E7F21C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				701BA55119976D6200E7F21C /* FlickrFeed.h */,
+				701BA55219976D6200E7F21C /* FlickrFeed.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		701BA55419976EE200E7F21C /* ModelBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				701BA55519976EFD00E7F21C /* FlickrFeedBuilder.h */,
+				701BA55619976EFD00E7F21C /* FlickrFeedBuilder.m */,
+			);
+			name = ModelBuilder;
+			sourceTree = "<group>";
+		};
+		701BA56119977D1900E7F21C /* ImageDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				701BA55B19977D1300E7F21C /* ImageDownloadManager.h */,
+				701BA55C19977D1300E7F21C /* ImageDownloadManager.m */,
+				701BA55D19977D1300E7F21C /* ImageDownloadOperation.h */,
+				701BA55E19977D1300E7F21C /* ImageDownloadOperation.m */,
+			);
+			name = ImageDownloadManager;
+			sourceTree = "<group>";
+		};
 		7028D1841994FE140055E206 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +189,7 @@
 		7028D18F1994FE140055E206 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				701BA54B199769A900E7F21C /* SystemConfiguration.framework */,
 				7028D1901994FE140055E206 /* Foundation.framework */,
 				7028D1921994FE150055E206 /* CoreGraphics.framework */,
 				7028D1941994FE150055E206 /* UIKit.framework */,
@@ -112,11 +201,18 @@
 		7028D1961994FE150055E206 /* iosassignmentmyntra */ = {
 			isa = PBXGroup;
 			children = (
+				703AD95D1997B3FF00D7077E /* Views */,
+				701BA55419976EE200E7F21C /* ModelBuilder */,
+				701BA55019976D2A00E7F21C /* Model */,
+				701BA540199765CC00E7F21C /* ViewControllers */,
 				7028D19F1994FE150055E206 /* AppDelegate.h */,
 				7028D1A01994FE150055E206 /* AppDelegate.m */,
 				7028D1A21994FE150055E206 /* Main.storyboard */,
-				7028D1A51994FE150055E206 /* ViewController.h */,
-				7028D1A61994FE150055E206 /* ViewController.m */,
+				701BA5411997664300E7F21C /* Constants.h */,
+				701BA55819976F6C00E7F21C /* ApplicationModel.h */,
+				701BA55919976F6C00E7F21C /* ApplicationModel.m */,
+				701BA56119977D1900E7F21C /* ImageDownloadManager */,
+				701BA53F199765C300E7F21C /* Commands */,
 				7028D1A81994FE150055E206 /* Images.xcassets */,
 				7028D1971994FE150055E206 /* Supporting Files */,
 			);
@@ -126,6 +222,10 @@
 		7028D1971994FE150055E206 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				703AD9621997E0A600D7077E /* MBProgressHUD.h */,
+				703AD9631997E0A600D7077E /* MBProgressHUD.m */,
+				701BA548199767B200E7F21C /* Reachability.h */,
+				701BA549199767B200E7F21C /* Reachability.m */,
 				7028D1981994FE150055E206 /* iosassignmentmyntra-Info.plist */,
 				7028D1991994FE150055E206 /* InfoPlist.strings */,
 				7028D19C1994FE150055E206 /* main.m */,
@@ -150,6 +250,15 @@
 				7028D1B81994FE150055E206 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		703AD95D1997B3FF00D7077E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				703AD95E1997B41F00D7077E /* FlickrCell.h */,
+				703AD95F1997B41F00D7077E /* FlickrCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +359,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7028D1A71994FE150055E206 /* ViewController.m in Sources */,
+				701BA55719976EFD00E7F21C /* FlickrFeedBuilder.m in Sources */,
 				7028D1A11994FE150055E206 /* AppDelegate.m in Sources */,
+				701BA54A199767B200E7F21C /* Reachability.m in Sources */,
+				701BA54F19976A6E00E7F21C /* FlickrImageFetchCommand.m in Sources */,
+				701BA5471997677100E7F21C /* CommandOperationQueue.m in Sources */,
+				701BA55A19976F6C00E7F21C /* ApplicationModel.m in Sources */,
+				701BA56019977D1300E7F21C /* ImageDownloadOperation.m in Sources */,
+				701BA55F19977D1300E7F21C /* ImageDownloadManager.m in Sources */,
 				7028D19D1994FE150055E206 /* main.m in Sources */,
+				703AD9601997B41F00D7077E /* FlickrCell.m in Sources */,
+				701BA55319976D6200E7F21C /* FlickrFeed.m in Sources */,
+				701BA53E199765BB00E7F21C /* Command.m in Sources */,
+				703AD9641997E0A600D7077E /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +576,7 @@
 				7028D1C11994FE150055E206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7028D1C21994FE150055E206 /* Build configuration list for PBXNativeTarget "iosassignmentmyntraTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +585,7 @@
 				7028D1C41994FE150055E206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
